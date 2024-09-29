@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="left"></div>
+        <div id="right">
+            <h3>All Songs</h3>
+            <div id="all-songs">
+               <!--song cards will be inserted here by js-->
+                
+            </div>
+        </div>
+    </div>
+    <div id="player">
+        <h3 id ='backward'><i class="ri-skip-back-mini-fill"></i></h3>
+        <h3 id = 'play'><i class="ri-play-fill"></i></h3>
+        <h3 id="forward"><i class="ri-skip-forward-fill"></i></h3>
+        <span id="current-time">0:00</span>
+        <input type="range" id="seekbar" value="0" max="100">
+        <span id="total-time">0:00</span>
+        <input type="range" id="volume" value="100" max="100">
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
